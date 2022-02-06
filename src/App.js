@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Carrousel from "./components/Carrousel";
 import LoadingPage from "./components/LoadingPage";
 import ProductInfo from "./components/ProductInfo";
+import Information from "./components/Information";
 import "./App.css";
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
               price={price}
               compare={compare_at_price}
             />
+            <Information description={description} />
           </div>
         </div>
       )}
