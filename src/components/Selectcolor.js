@@ -2,7 +2,7 @@ import "./styles/Selectcolor.css";
 
 function Selectcolor(props) {
   const { option, setValor } = props;
-
+//recorre las propiedades de color del producto y crea un componente de boton por cada index que tenga el objeto de colores
   return (
     <div className="select">
       <p>Color:</p>

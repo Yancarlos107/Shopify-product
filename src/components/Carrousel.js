@@ -1,7 +1,9 @@
 import "./styles/Carrousel.css";
 
 function Carrousel(props) {
+  //desestructuracion de las propiedades heradas del componente padre
   const { media } = props;
+  //crea un array que guarda los recursos de las imagenes
   const images = media.map((product) => product.src);
   return (
     <div class="carrusel">

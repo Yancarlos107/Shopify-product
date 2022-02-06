@@ -1,6 +1,7 @@
 import "./styles/InfoPrice.css";
 
 function InfoPrice(props) {
+  //muestra al usuario el valor del producto actual y el valor original o sin descuento
   return (
     <div>
       <h2>

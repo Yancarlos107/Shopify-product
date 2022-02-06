@@ -2,6 +2,7 @@ import "./styles/Selectorsize.css";
 
 function Selectorsize(props) {
   const { option, setSize } = props;
+  //recorre las propiedades de talla del producto y crea un componente de boton por cada index que tenga el objeto de talla
   return (
     <div className="select">
       <p>Size:</p>

@@ -4,6 +4,7 @@ import "./styles/TotalProduct.css";
 
 function TotalProduct(props) {
   const [counter, setCounter] = useState(0);
+  //multiplica el precio del producto por la cantidad seleccionada
   return (
     <div className="product-total">
       <Counter
