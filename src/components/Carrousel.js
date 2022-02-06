@@ -1,4 +1,4 @@
-import "C:/Users/YAN/Desktop/Nueva carpeta/PersonalProjects/gradiweb-prueba/src/styles/Carrousel.css";
+import "./styles/Carrousel.css";
 
 function Carrousel(props) {
   const { media } = props;

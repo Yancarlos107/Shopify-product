@@ -1,4 +1,4 @@
-import "C:/Users/YAN/Desktop/Nueva carpeta/PersonalProjects/gradiweb-prueba/src/styles/InfoPrice.css";
+import "./styles/InfoPrice.css";
 
 function InfoPrice(props) {
   return (

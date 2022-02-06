@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Counter from "./Counter";
-import "C:/Users/YAN/Desktop/Nueva carpeta/PersonalProjects/gradiweb-prueba/src/styles/TotalProduct.css";
+import "./styles/TotalProduct.css";
 
 function TotalProduct(props) {
   const [counter, setCounter] = useState(0);

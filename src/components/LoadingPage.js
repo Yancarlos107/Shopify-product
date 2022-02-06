@@ -1,4 +1,4 @@
-import "C:/Users/YAN/Desktop/Nueva carpeta/PersonalProjects/gradiweb-prueba/src/styles/LoadingPageStyle.css";
+import "./styles/LoadingPageStyle.css";
 
 function LoadingPage() {
   return (

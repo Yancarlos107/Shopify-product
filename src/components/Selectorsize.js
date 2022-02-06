@@ -1,4 +1,4 @@
-import "C:/Users/YAN/Desktop/Nueva carpeta/PersonalProjects/gradiweb-prueba/src/styles/Selectorsize.css";
+import "./styles/Selectorsize.css";
 
 function Selectorsize(props) {
   const { option, setSize } = props;

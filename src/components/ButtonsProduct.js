@@ -1,4 +1,4 @@
-import "C:/Users/YAN/Desktop/Nueva carpeta/PersonalProjects/gradiweb-prueba/src/styles/ButtonProduct.css";
+import "./styles/ButtonProduct.css";
 
 function ButtonsProduct(props) {
   const { addCart, saveColor, saveSize, show, setShow } = props;

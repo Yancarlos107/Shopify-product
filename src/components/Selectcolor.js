@@ -1,4 +1,4 @@
-import "C:/Users/YAN/Desktop/Nueva carpeta/PersonalProjects/gradiweb-prueba/src/styles/Selectcolor.css";
+import "./styles/Selectcolor.css";
 
 function Selectcolor(props) {
   const { option, setValor } = props;
