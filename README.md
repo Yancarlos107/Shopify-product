@@ -6,8 +6,8 @@ Consideré que React es una opción muy viable para el desarrollo de esta prueba
 
 Luego de realizar el git clone:
 
-1.Correr el comando "npm install" para descargar los modulos de node
-2.Correr el comando "npm start" para correr el proyecto en local
+-Correr el comando "npm install" para descargar los modulos de node
+-Correr el comando "npm start" para correr el proyecto en local
 
 ## Datos de contacto
 
