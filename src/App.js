@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
 import Carrousel from "./components/Carrousel";
-import LoadingPage from "./components/LoadingPage";
 import ProductInfo from "./components/ProductInfo";
 import Information from "./components/Information";
+import LoadingPage from "./components/LoadingPage";
 import "./App.css";
 
 function App() {

@@ -1,0 +1,23 @@
+.select {
+  display: flex;
+  align-items: center;
+}
+.select-color {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+.list-color {
+  margin: 0 10px;
+}
+.select-color-button {
+  border: 1px solid white;
+  background: #ea2929;
+  height: 0.9rem;
+  width: 0.9rem;
+  border-radius: 10px;
+}
+
+.select-color-button:active {
+  border: 1px solid gray;
+}

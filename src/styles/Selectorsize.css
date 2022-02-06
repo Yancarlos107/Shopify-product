@@ -1,0 +1,26 @@
+.select {
+  display: flex;
+}
+p {
+  align-self: baseline;
+}
+.list-size {
+  margin: 10px 10px;
+}
+.select-size {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.select-size-button {
+  border: 1px solid #bdbdbd;
+  height: 45px;
+  width: 45px;
+  color: #bdbdbd;
+  font-size: 1rem;
+}
+.select-size-button:active {
+  color: #2e2e2e;
+  border: 1px solid #2e2e2e;
+}
