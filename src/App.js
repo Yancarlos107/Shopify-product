@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 import Carrousel from "./components/Carrousel";
 import LoadingPage from "./components/LoadingPage";
+import ProductInfo from "./components/ProductInfo";
 import "./App.css";
 
 function App() {
@@ -38,6 +39,15 @@ function App() {
       ) : (
         <div className="App">
           <Carrousel media={media} />
+          <div className="Infoproduct">
+            <ProductInfo
+              options={options}
+              variants={variants}
+              title={title}
+              price={price}
+              compare={compare_at_price}
+            />
+          </div>
         </div>
       )}
     </div>
